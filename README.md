@@ -19,7 +19,7 @@
 
 ## 📂 Project Structure
 
----
+```
 ShapesDrawer/
 ├─ src/ # Source code
 │ ├─ CommandProcessor.h/cpp
@@ -34,9 +34,7 @@ ShapesDrawer/
 │ └─ ex1.txt
 ├─ ShapesDrawer.pro # Qt project file
 └─ README.md
-
----
-
+```
 ---
 
 ## 🚀 Quick Start (Build & Run)
@@ -60,12 +58,11 @@ The application window includes:
 
 Enter commands in the input field and press **Enter**:
 
+```
 create_triangle -name {t1} -coord_1 {2,3} -coord_2 {5,1} -coord_3 {4,6}
-
 create_square -name {s1} -coord_1 {1,1} -coord_2 {3,1} -coord_3 {3,3} -coord_4 {1,3}
-
 connect -object_name_1 {t1} -object_name_2 {s1}
-
+```
 
 **Notes:**  
 - Use `{}` around names and coordinates  
@@ -95,16 +92,13 @@ execute_file -file_path {scripts/ex1.txt}
 
 ## 📝 Example Script (`scripts/ex1.txt`)
 
+```
 create_triangle -name {t1} -coord_1 {2,3} -coord_2 {5,1} -coord_3 {4,6}
-
 create_square -name {s1} -coord_1 {1,1} -coord_2 {3,1} -coord_3 {3,3} -coord_4 {1,3}
-
 create_triangle -name {t2} -coord_1 {6,2} -coord_2 {8,1} -coord_3 {7,5}
-
 connect -object_name_1 {t1} -object_name_2 {s1}
-
 connect -object_name_1 {t2} -object_name_2 {s1}
-
+```
 
 - Creates **two triangles** and **one square**, connecting them  
 
