@@ -110,7 +110,8 @@ connect -object_name_1 {t2} -object_name_2 {s1}
 - Commands must be **single-line**  
 - Shape colors are currently fixed  
 - Performance may degrade with a very large number of shapes  
-- Connections cannot yet be removed dynamically  
+- Connections cannot yet be removed dynamically
+- The coordinates should be > 10, so the shapes be bigger   
 
 ---
 
